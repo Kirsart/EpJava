@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main()
+{
+	int n, w;
+	scanf("%d %d", &n, &w);
+	printf("%d", abs((n*w)/(n-w)));
+}

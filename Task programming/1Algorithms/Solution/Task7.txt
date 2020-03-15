@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+	int n, f, m, ns;
+	scanf("%d %d %d", &n, &f, &m);
+	ns = (n - f + m)/3;
+	printf("%d %d %d", ns + f, ns, ns - m);
+		
+}

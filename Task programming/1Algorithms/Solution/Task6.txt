@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int n, k, x, y;
+	scanf("%d %d", &n, &k);
+	
+	y = (n - k) / 2;
+	x = n - y;
+	printf("%d %d", x, y);
+}

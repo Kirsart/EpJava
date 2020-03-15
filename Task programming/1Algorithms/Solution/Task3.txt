@@ -1,0 +1,9 @@
+#include <stdio.h>
+ 
+int main() {
+	int year, century, date;
+	scanf("%d", &date);
+	year = date % 100;
+	century = date / 100 + 1;
+	printf("%d %d", century, year);
+}
